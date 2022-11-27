@@ -1,0 +1,36 @@
+#main{
+  display:flex;
+}
+
+#menu{
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+
+#conteudo{
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+
+#menu > div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#conteudo > div{
+    display: none;
+    
+}
+#conteudo > div.visivel{
+    display: block;
+}
